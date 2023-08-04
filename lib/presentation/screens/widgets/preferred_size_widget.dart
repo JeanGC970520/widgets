@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'package:go_router/go_router.dart';
+
 class PreferrefSizeWidget extends StatelessWidget {
   const PreferrefSizeWidget({super.key});
 
@@ -9,6 +11,7 @@ class PreferrefSizeWidget extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final style = Theme.of(context).textTheme.headlineLarge;
+    final colors = Theme.of(context).colorScheme;
 
     return Scaffold(
       appBar: PreferredSize(
@@ -30,6 +33,13 @@ class PreferrefSizeWidget extends StatelessWidget {
                   title: Text(
                     'PreferredSize', 
                     style: style,
+                  ),
+                  leading: IconButton(
+                    onPressed: () => context.pop(), 
+                    icon: Icon( 
+                      Icons.arrow_back_ios_new_rounded,
+                      color: colors.background, 
+                    )
                   ),
                   trailing: IconButton( 
                     icon: const Icon(Icons.search, size: 30,),

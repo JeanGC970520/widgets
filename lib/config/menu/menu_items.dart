@@ -26,4 +26,12 @@ const appMenuItems = <MenuItem> [
     icon: Icons.notification_important,
   ),
 
+  MenuItem(
+    title: 'Preferred Size', 
+    subTitle: 'A way to build an custom AppBar', 
+    link: '/preferred-size', 
+    icon: Icons.notification_important,
+  ),
+
+
 ];

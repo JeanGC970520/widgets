@@ -11,6 +11,9 @@ class MaterialBannerWidget extends StatelessWidget {
     final colors = Theme.of(context).colorScheme;
 
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('MaterialBanner'),
+      ),
       body: Center(
         child: FilledButton.icon(
           onPressed: () {

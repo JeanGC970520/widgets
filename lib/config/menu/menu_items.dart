@@ -30,7 +30,7 @@ const appMenuItems = <MenuItem> [
     title: 'Preferred Size', 
     subTitle: 'A way to build an custom AppBar', 
     link: '/preferred-size', 
-    icon: Icons.notification_important,
+    icon: Icons.photo_size_select_small,
   ),
 
 

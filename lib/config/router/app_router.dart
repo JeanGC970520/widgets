@@ -16,5 +16,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const MaterialBannerWidget(),
     ),
 
+    GoRoute(
+      path: '/preferred-size',
+      builder: (context, state) => const PreferrefSizeWidget(),
+    ),
+
   ]
 );

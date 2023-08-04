@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 class MaterialBannerWidget extends StatelessWidget {
   const MaterialBannerWidget({super.key});
@@ -17,7 +16,7 @@ class MaterialBannerWidget extends StatelessWidget {
           onPressed: () {
             ScaffoldMessenger.of(context).showMaterialBanner(
               MaterialBanner(
-                leading: const Icon( icon ),
+                leading: Icon( icon, color: colors.primary, ),
                 content: const Text('This is a notification'), 
                 actions: [
                   TextButton(

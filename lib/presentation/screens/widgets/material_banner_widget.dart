@@ -16,6 +16,11 @@ class MaterialBannerWidget extends StatelessWidget {
           onPressed: () {
             ScaffoldMessenger.of(context).showMaterialBanner(
               MaterialBanner(
+                elevation: 5,
+                margin: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 10,
+                ),
                 leading: Icon( icon, color: colors.primary, ),
                 content: const Text('This is a notification'), 
                 actions: [

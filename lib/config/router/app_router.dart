@@ -15,7 +15,7 @@ final appRouter = GoRouter(
 
     GoRoute(
       path: '/material-banner',
-      builder: (context, state) => const Placeholder(),
+      builder: (context, state) => const MaterialBannerWidget(),
     ),
 
   ]

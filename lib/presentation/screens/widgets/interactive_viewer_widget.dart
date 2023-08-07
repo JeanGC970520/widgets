@@ -16,6 +16,7 @@ class InteractiveViewerWidget extends StatelessWidget {
         // * borderMargin allows us how much to separate the child of InteractiveViewer 
         // * from his father
         boundaryMargin: const EdgeInsets.all(10),
+        // boundaryMargin: const EdgeInsets.all(double.infinity),
         child: Scaffold(
           appBar: AppBar(
             title: const Text('Inside of an InteractiveViewer'),

@@ -40,4 +40,11 @@ const appMenuItems = <MenuItem> [
     icon: Icons.touch_app,
   ),
 
+  MenuItem(
+    title: 'InteractiveViewer', 
+    subTitle: 'Move anything inside our app. Zoom it and move it out of its place', 
+    link: '/interactive-viewer', 
+    icon: Icons.zoom_out_map_sharp,
+  ),
+
 ];

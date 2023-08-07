@@ -25,5 +25,11 @@ final appRouter = GoRouter(
       path: '/long-press-draggable',
       builder: (context, state) => const LongPressDraggableWidget(),
     ),
+    
+    GoRoute(
+      path: '/interactive-viewer',
+      builder: (context, state) => const InteractiveViewerWidget(),
+    ),
+
   ]
 );

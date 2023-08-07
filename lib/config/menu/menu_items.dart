@@ -33,5 +33,11 @@ const appMenuItems = <MenuItem> [
     icon: Icons.photo_size_select_small,
   ),
 
+  MenuItem(
+    title: 'Long Press Draggable', 
+    subTitle: 'Move an object doing long press on its self', 
+    link: '/long-press-draggable', 
+    icon: Icons.touch_app,
+  ),
 
 ];

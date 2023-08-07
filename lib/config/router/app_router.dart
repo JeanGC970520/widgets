@@ -20,6 +20,10 @@ final appRouter = GoRouter(
       path: '/preferred-size',
       builder: (context, state) => const PreferrefSizeWidget(),
     ),
-
+    
+    GoRoute(
+      path: '/long-press-draggable',
+      builder: (context, state) => const LongPressDraggableWidget(),
+    ),
   ]
 );

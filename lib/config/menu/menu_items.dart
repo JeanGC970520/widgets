@@ -47,4 +47,11 @@ const appMenuItems = <MenuItem> [
     icon: Icons.zoom_out_map_sharp,
   ),
 
+  MenuItem(
+    title: 'Reorderable List View', 
+    subTitle: 'A List that can be draggered and ordered by the user', 
+    link: '/reorderable-list-view', 
+    icon: Icons.drag_handle_sharp,
+  ),
+
 ];

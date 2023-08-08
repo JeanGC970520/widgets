@@ -31,5 +31,9 @@ final appRouter = GoRouter(
       builder: (context, state) => const InteractiveViewerWidget(),
     ),
 
+    GoRoute(
+      path: '/reorderable-list-view',
+      builder: (context, state) => const ReorderableListViewWidget(),
+    ),
   ]
 );
